@@ -1,0 +1,124 @@
+body{
+    background-color: rgba(255,229,209,1);
+    
+}
+
+header{
+    background-color:  #f1f1f1;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-driver-license{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-driver-license__subtitle1{
+    color: #e53b51;
+    margin: 1em;
+    display: flex;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#container-driver-license__username{
+    height: 3em;
+    display: flex;
+    width: 25em;
+    max-block-size: 100;
+    justify-content: center;
+    border-radius: .8em;
+    margin-left: 10em;
+    margin-bottom: 1.2em;
+    padding-left: 1em;
+    font-size: 1em;
+    border:#e53b51 solid .1em; 
+    font-weight: bold;
+}
+
+#container-driver-license__userage{
+    height: 3em;
+    display: flex;
+    width: 12em;
+    max-block-size: 100;
+    justify-content: center;
+    border-radius: .8em;
+    margin-left: 17em;
+    margin-bottom: 1.2em;
+    padding-left: 1em;
+    font-size: 1em;
+    border:#e53b51 solid .1em; 
+    font-weight: bold;
+}
+
+#container-driver-license__btn{
+    height: 3em;
+    width: 7em;
+    border-radius: .8em;
+    background-color: #f1f1f1;
+    margin-left: 24em;
+    border: black solid .1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#container-driver-license__btn:hover{
+    letter-spacing: .1em;
+    background-color: #e53b51;
+}   
+
+.container-DNI-letter__subtitle{
+    color: #e53b51;
+    margin: .5em;
+    display: flex;
+    text-align: center;
+    font-size: 2.2em;
+    margin-left: 15.1em;  
+}
+
+#container-DNI-letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container-DNI-letter__dniNumber{
+    height: 3em;
+    display: flex;
+    width: 15em;
+    max-block-size: 100;
+    justify-content: center;
+    border-radius: .8em;
+    margin-left: 39em;
+    margin-bottom: 1.2em;
+    padding-left: 1em;
+    font-size: 1em;
+    border:#e53b51 solid .1em; 
+    font-weight: bold;
+}
+
+#container-DNI-letter__btn{
+    height: 3em;
+    width: 7em;
+    border-radius: .8em;
+    background-color: #f1f1f1;
+    margin-left: 51.6em;
+    border: black solid .1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#container-DNI-letter__btn:hover{
+    letter-spacing: .1em;
+    background-color: #e53b51;
+}   
